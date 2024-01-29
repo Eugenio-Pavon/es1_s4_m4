@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(167, 167, 239);
+}
+.riga .card img {
+  aspect-ratio: 1/1;
+
+  object-fit: contain;
+}
+.riga {
+  text-align: center;
+  justify-content: center;
+}
+.card {
+  background-color: rgb(37, 37, 152);
+  color: white;
+}
+.card-body {
+  height: 30%;
+}
+
+p {
+  font-weight: bold;
+}
+button {
+  background-color: red;
+}
+.card:hover {
+  box-shadow: 5px 5px 5px black;
+}
+button {
+  border-radius: 5px;
+}
+.carrello {
+  background-color: yellow;
+  height: 400px;
+}
+input {
+  margin: 5px;
+}
+.backoffice {
+  margin-inline: 20px;
+}
